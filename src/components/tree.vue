@@ -1,6 +1,7 @@
 <template>
     <div>
         <h2>{{tree}}</h2>
+        <h2>{{grass}}</h2>
     </div>
 </template>
 
@@ -8,7 +9,8 @@
 export default {
     data(){
         return {
-            tree: "我是一棵树"
+            tree: "我是一棵树",
+            grass:"我是小草"
         }
     }
 }
